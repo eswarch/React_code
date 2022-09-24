@@ -17,7 +17,7 @@ const SubmitEvent = ()=>{
       
     } 
     return(
-        <div class="Container">
+        <div style={{'backgroundColor':'#D6DBDF'}}class="Container">
             <form onSubmit={SubmitHandler}>
             <label style={{'color': 'red'}}> Email </label> <br/>
             <input type="text" name="email" onChange={ChangeHandler}></input><br/>
