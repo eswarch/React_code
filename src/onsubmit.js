@@ -17,13 +17,15 @@ const SubmitEvent = ()=>{
       
     } 
     return(
-        <div style={{'backgroundColor':'#D6DBDF'}}class="Container">
+        <div class="Container">
             <form onSubmit={SubmitHandler}>
-            <label style={{'color': 'red'}}> Email </label> <br/>
+            <label  > Email </label> <br/>
             <input type="text" name="email" onChange={ChangeHandler}></input><br/>
             <label> Password </label><br/>
             <input type="password" name="password" onChange={ChangeHandler}></input><br/>
             <input type="submit" value="Login" className='btn btn-secondary'></input><br/>
+            <div className='forgot'>forgot password?</div>
+            <div className='signup'>Signup</div>
             </form>
         </div>
     )
