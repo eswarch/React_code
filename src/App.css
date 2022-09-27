@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(17, 18, 17);
+}
 .App {
   text-align: center;  
   padding: 100px;
@@ -30,7 +33,7 @@
 }
 
 .Container {
-  background-color:#1352cf;
+  background-color:greenyellow;
   height: 300px;
   width: 300px;
   margin: auto;
